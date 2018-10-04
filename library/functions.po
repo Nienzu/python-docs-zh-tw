@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-23 20:52+0800\n"
-"PO-Revision-Date: 2018-09-30 10:43+0800\n"
+"PO-Revision-Date: 2018-10-04 17:44+0800\n"
 "Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
 "Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
 "tw)\n"
@@ -322,7 +322,9 @@ msgid ""
 "iterable is empty).  Equivalent to::"
 msgstr ""
 "如果 *iterable* 的所有元素皆為 True（或 iterable 為空），返回 ``True`` 。等價"
-"於："
+"於：\n"
+"\n"
+"::"
 
 #: ../../library/functions.rst:64
 msgid ""
@@ -330,7 +332,9 @@ msgid ""
 "is empty, return ``False``.  Equivalent to::"
 msgstr ""
 "如果 *iterable* 的任一元素為 True，返回 ``True`` 。如果 iterable 為空，返回 "
-"``False``。等價於："
+"``False``。等價於：\n"
+"\n"
+"::"
 
 #: ../../library/functions.rst:76
 msgid ""
@@ -525,15 +529,17 @@ msgid ""
 "idiom::"
 msgstr ""
 "一個類別方法把自己的類別作為第一個引數，就像一個實例方法把實例自己作為第一個"
-"引數。請用以下習慣來宣告類別方法："
+"引數。請用以下習慣來宣告類別方法：\n"
+"\n"
+"::"
 
 #: ../../library/functions.rst:213
 msgid ""
 "The ``@classmethod`` form is a function :term:`decorator` -- see the "
 "description of function definitions in :ref:`function` for details."
 msgstr ""
-"``@classmethod`` 語法是一個函式 :term:`decorator` —  參見 :ref:`function` 中關"
-"於函式定義的詳細介紹。"
+"``@classmethod`` 語法是一個函式 :term:`decorator` —  參見 :ref:`function` 中"
+"關於函式定義的詳細介紹。"
 
 #: ../../library/functions.rst:216
 msgid ""
@@ -630,7 +636,7 @@ msgstr ""
 "引數 *optimize* 用來指定編譯器的最佳化級別；預設值 ``-1`` 選擇與直譯器的 :"
 "option:`-O` 選項相同的最佳化級別。其他級別為 ``0`` （沒有最佳化；"
 "``__debug__`` 為 True）、``1`` （斷言被刪除， ``__debug__`` 為 False）或 "
-"``2``（文件字串也被刪除）。"
+"``2`` （文件字串也被刪除）。"
 
 #: ../../library/functions.rst:266
 msgid ""
@@ -856,7 +862,10 @@ msgstr ""
 
 #: ../../library/functions.rst:421
 msgid "Equivalent to::"
-msgstr "等價於："
+msgstr ""
+"等價於：\n"
+"\n"
+"::"
 
 #: ../../library/functions.rst:432
 msgid ""
@@ -1076,7 +1085,10 @@ msgstr "如果沒有引數，則返回 ``0.0`` 。"
 
 #: ../../library/functions.rst:564
 msgid "Examples::"
-msgstr "例如："
+msgstr ""
+"例如：\n"
+"\n"
+"::"
 
 #: ../../library/functions.rst:577
 msgid "The float type is described in :ref:`typesnumeric`."
@@ -1270,7 +1282,9 @@ msgid ""
 msgstr ""
 "如果有提供 *prompt* 引數，則將其寫入標準輸出，末尾不帶換行符。接下來，該函式"
 "從輸入中讀取一行，將其轉換為字串（去除末尾的換行符）並返回。當讀取到 EOF 時，"
-"則觸發 :exc:`EOFError`。例如："
+"則觸發 :exc:`EOFError`。例如：\n"
+"\n"
+"::"
 
 #: ../../library/functions.rst:732
 msgid ""
@@ -1396,7 +1410,9 @@ msgid ""
 "string::"
 msgstr ""
 ":func:`iter` 的第二種形式的一個有用的應用是將檔案讀到特定行。在下面的例子中，"
-"我們將讀取檔案，直到 :meth:`~io.TextIOBase.readline` 方法返回一個空字串："
+"我們將讀取檔案，直到 :meth:`~io.TextIOBase.readline` 方法返回一個空字串：\n"
+"\n"
+"::"
 
 #: ../../library/functions.rst:823
 msgid ""
@@ -1851,7 +1867,9 @@ msgid ""
 "`os.open` function to open a file relative to a given directory::"
 msgstr ""
 "下面的範例使用 :func:`os.open` 函式返回值當作 :ref:`dir_fd <dir_fd>` 的參數，"
-"從給定的目錄中用相對路徑開啟檔案："
+"從給定的目錄中用相對路徑開啟檔案：\n"
+"\n"
+"::"
 
 #: ../../library/functions.rst:1124
 msgid ""
