@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-26 18:54+0800\n"
-"PO-Revision-Date: 2018-10-17 13:31+0800\n"
+"PO-Revision-Date: 2018-10-17 13:50+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -92,15 +92,24 @@ msgstr "在 FreeBSD 與 OpenBSD 上"
 
 #: ../../using/unix.rst:42
 msgid "FreeBSD users, to add the package use::"
-msgstr "對 FreeBSD 使用者來說，要新增軟體包請使用：::"
+msgstr ""
+"對 FreeBSD 使用者來說，要新增軟體包請使用：\n"
+"\n"
+"::"
 
 #: ../../using/unix.rst:46
 msgid "OpenBSD users, to add the package use::"
-msgstr "對 OpenBSD 使用者來說，要新增軟體包請使用：::"
+msgstr ""
+"對 OpenBSD 使用者來說，要新增軟體包請使用：\n"
+"\n"
+"::"
 
 #: ../../using/unix.rst:52
 msgid "For example i386 users get the 2.5.1 version of Python using::"
-msgstr "舉例來說，i386 使用者要取得 2.5.1 版的 Python 請使用：::"
+msgstr ""
+"舉例來說，i386 使用者要取得 2.5.1 版的 Python 請使用：\n"
+"\n"
+"::"
 
 #: ../../using/unix.rst:58
 msgid "On OpenSolaris"
@@ -134,7 +143,10 @@ msgstr ""
 
 #: ../../using/unix.rst:75
 msgid "The build process consists in the usual ::"
-msgstr "建構過程通常包含了：::"
+msgstr ""
+"建構過程通常包含了：\n"
+"\n"
+"::"
 
 #: ../../using/unix.rst:81
 msgid ""
@@ -232,7 +244,10 @@ msgstr "要更簡單地在 Unix 上使用 Python 指令稿，您需要將其變�
 msgid ""
 "and put an appropriate Shebang line at the top of the script.  A good choice "
 "is usually ::"
-msgstr "並在指令稿頂端寫上適合的 Shebang 行，下面的例子通常是好選擇：::"
+msgstr ""
+"並在指令稿頂端寫上適合的 Shebang 行，下面的例子通常是好選擇：\n"
+"\n"
+"::"
 
 #: ../../using/unix.rst:132
 msgid ""
